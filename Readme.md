@@ -6,4 +6,4 @@ Extensão simples para Chrome que permite salvar anotações rápidas diretament
 
 1. Baixe ou clone este repositório:
    ```bash
-   git clone https://github.com/maryfernandasdn/bootcamp2-chrome-ext-quicknotes.git
+   git clone https://github.com/maryfernandasdn/Quick-Notes.git

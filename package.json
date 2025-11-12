@@ -1,0 +1,32 @@
+{
+  "name": "quick_notes",
+  "version": "1.0.0",
+  "description": "Extensão simples para Chrome que permite salvar anotações rápidas diretamente no popup do navegador, usando `chrome.storage.local`.",
+  "main": "popup.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "build": "node scripts/build-extension.mjs",
+    "test:e2e": "playwright test --reporter=list,html",
+    "test": "npm run build && npm run test:e2e",
+    "ci": "npm ci && npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maryfernandasdn/Quick-Notes.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/maryfernandasdn/Quick-Notes/issues"
+  },
+  "homepage": "https://github.com/maryfernandasdn/Quick-Notes#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.56.1",
+    "@types/node": "^24.10.1",
+    "archiver": "^7.0.1"
+  }
+}

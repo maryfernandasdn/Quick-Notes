@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Quick Notes",
+  "version": "0.0.2",
+  "description": "Bloco de notas rápido diretamente no navegador.",
+
+
+
+  "action": {
+    "default_title": "Quick Notes",
+    "default_popup": "popup.html",
+    "default_icon": "icone.png"
+  },
+
+  "background": {
+    "service_worker": "service-worker.js"
+  },
+  "permissions": ["storage"]
+}
